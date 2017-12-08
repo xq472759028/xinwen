@@ -1,0 +1,216 @@
+@import url("base.css");
+header{
+    width: 100%;
+    height: 0.6rem;
+    background: red;
+    overflow: hidden;
+    position: relative;
+}
+header>input{
+    width: 60%;
+    height: 0.5rem;
+    display: block;
+    margin: 0.05rem auto;
+    outline:none;
+    padding-left: 0.6em;
+    box-sizing: border-box;
+    border:none;
+    outline:none;
+    border-radius: 2%;
+}
+a.back{
+    display: block;
+    width:0.6rem;
+    line-height: 0.6rem;
+    color: #fff;
+    font-size: 0.3rem;
+    font-family: "宋体";
+    position: absolute;
+    left:0.2rem;
+    top:0;
+}
+.sousuo{
+    position: absolute;
+    width:15%;
+    height:0.4rem;
+    top:0;
+    right:0.1rem;
+    font-size: 0.2rem;
+    text-align: center;
+    line-height: 0.6rem;
+    color: #fff;
+    border:none;
+    outline:none;
+    background: rgba(0,0,0,0);
+}
+main{
+    margin-top: .5rem;
+    width:100%;
+}
+#main{
+    width:100%;
+}
+#main>li{
+    width:92%;
+    margin:0 auto;
+    padding-bottom: 0.1rem;
+    border-bottom: 0.02rem solid #eee;
+    overflow: hidden;
+    position: relative;
+
+}
+#main>li a{
+    color: #000;
+}
+.mark{
+    min-height: 1rem;
+    max-height: 1.7rem;
+}
+.message{
+    padding-top: .05rem;
+    overflow: hidden;
+    color: #666;
+}
+.from{
+    float: left;
+    font-size: .12rem;
+}
+.from span{
+    font-size: .12rem;
+    margin-left: .01rem;
+}
+.time{
+    float: left;
+    font-size: .12rem;
+    margin-left: .05rem;
+}
+.title{
+    width:100%;
+    font-size: .16rem;
+    padding-top: .1rem;
+}
+.message{
+    padding-top: .05rem;
+}
+#add{
+    width:80%;
+    height:0.3rem;
+    background: red;
+    line-height: 0.3rem;
+    text-align: center;
+    font-size: 0.16rem;
+    margin: 0 auto;
+    color: #fff;
+    border:none;
+    outline:none;
+    display: none;
+}
+.zhao{
+    width: 100%;
+    height:100%;
+    position: fixed;
+    top:.6rem;
+    left:0;
+    background: rgba(0,0,0,0.3);
+    z-index:999;
+    display: none;
+}
+.zhao img{
+    position: absolute;
+    width:50%;
+    left:0;
+    right:0;
+    margin:auto;
+    bottom:50%;
+}
+.history{
+    position: absolute;
+    width:100%;
+    top:.6rem;
+}
+.line{
+    width:100%;
+    height:0.01rem;
+    background-color: #ddd;
+}
+.bigline{
+    border-top: 0.01rem solid #ddd;
+    border-bottom: 0.01rem solid #ddd;
+    width:100%;
+    height:0.05rem;
+    background-color: #eee;
+}
+#title{
+    width: 92%;
+    margin:0 auto;
+    font-size: .14rem;
+    line-height:.2rem;
+    margin-bottom: .05rem;
+    color: #999;
+}
+.content{
+    width: 92%;
+    margin:0 auto;
+    margin-top: .2rem;
+    display: flex;
+    flex-wrap:wrap;
+}
+.content>p{
+    font-size: .18rem;
+    line-height:.30rem;
+    padding-left:.05rem;
+    padding-right:.05rem;
+    margin-right: .2rem;
+    margin-bottom: .15rem;
+    border:.01rem solid #666;
+    font-family: "宋体";
+}
+.left{
+    width:40%;
+    height:auto;
+    overflow: hidden;
+    padding: 0.1rem;
+    float: left;
+}
+.left img{
+    display: block;
+    width:90%;
+    height:0.6rem;
+}
+.right{
+    width:60%;
+    /*height:auto;*/
+    /*padding: 0.1rem;*/
+    font-size: 0.14rem;
+    line-height: 0.2rem;
+    color: #000;
+    font-weight: 500;
+    float: left;
+}
+.right>span{
+    width:auto;
+    /*height: auto;*/
+    font-size: 0.16rem;
+    /*line-height: 0.6rem;*/
+    color: #000;
+    font-weight: 500;
+    float: left;
+    padding-top: 0.18rem;
+}
+.nopic>a div{
+    width:100%;
+    height:0.16rem;
+    font-size: 0.14rem;
+    color: #000;
+    font-weight: 500;
+}
+.nopic>a span{
+    display: block;
+    width:auto;
+    height:auto;
+    font-size: 0.16rem;
+    color: #000;
+    font-weight: 500;
+    padding-top:0.24rem;
+    float: left;
+}
